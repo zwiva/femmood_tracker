@@ -1,8 +1,8 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Navbar from "./components/Navbar";
-import Home from "./views/Home";
-import Contact from "./views/Contact";
-import './assets/styles/App.css';
+import Navbar from "./components/Navbar/Navbar";
+import Home from "./views/Home/Home";
+import Contact from "./views/Contact/Contact";
+import './assets/Global.css';
 
 // import { useState } from 'react'
 // const [count, setCount] = useState(0);
